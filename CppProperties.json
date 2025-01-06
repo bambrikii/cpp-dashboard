@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "x86-Debug",
+      "includePath": [
+        "${workspaceRoot}\\..\\..",
+        "${workspaceRoot}\\..\\..\\backends",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**",
+        "${workspaceRoot}\\..\\..\\backends\\imgui_impl_dx12.cpp",
+        "${workspaceRoot}\\..\\..\\backends\\imgui_impl_win32.cpp",
+        "${workspaceRoot}\\..\\..\\imgui*.cpp"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x86"
+    }
+  ]
+}

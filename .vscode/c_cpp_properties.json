@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/home/asd/.conan/data/imgui/1.89.4/_/_/package/6557f18ca99c0b6a233f43db00e30efaa525e27e/include/**",
+        "/home/asd/.conan/data/imgui/1.89.4/_/_/package/6557f18ca99c0b6a233f43db00e30efaa525e27e/res/bindings/**",
+        "/home/asd/.conan/data/glfw/3.3.8/_/_/package/3e7c626a326fdadc4c93f195efa1603f300bf722/include/GLFW/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang-14",
+      "configurationProvider": "ms-vscode.makefile-tools"
+    }
+  ],
+  "version": 4
+}
